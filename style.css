@@ -182,6 +182,8 @@ nav {
   flex: none;
   order: 0;
   flex-grow: 0;
+  position: relative;
+  left: -8px;
 }
 
 .hline {
@@ -191,6 +193,8 @@ nav {
   flex: none;
   order: 1;
   flex-grow: 0;
+  position: relative;
+  left: -8px;
 }
 
 .recent-work-container {
