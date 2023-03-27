@@ -160,8 +160,11 @@
   background-size: cover;
   color: white;
   width: 405px;
-  height: 386px;
+  height: 387px;
   display: flex;
+  left: -7px;
+  position: relative;
+  top: 30px;
 }
 
 .work-section .project-sample .full-btn {
