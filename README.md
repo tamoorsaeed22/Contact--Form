@@ -88,10 +88,14 @@ OPTIONAL SECTIONS:
 
 ### Key Features <a name="key-features"></a>
 
-- **[]**Enhancing CSS classes 
-- **[]**Use css minifier to get on css file 
-- **[]**buttons
-- **[]**Contact Form
+- **[Enhancing CSS classes ]**
+- **[Use css minifier to get on css file ]**
+- **[buttons]**
+- **[Contact Form]**
+- **[Navigation Section]**
+- **[Portfolio Page]**
+- **[Headline Section]**
+- **[About page]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
