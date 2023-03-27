@@ -165,7 +165,7 @@
 }
 
 .work-section .project-sample .full-btn {
-  width: 327px;
+  width: 405px;
   height: 48px;
   background-color: #ff6b00;
   border: none;
@@ -469,7 +469,8 @@ body {
     align-items: center;
   }
 }
-ul {
+
+.ul {
   display: flex;
   list-style: none;
   margin: 0;
@@ -573,9 +574,9 @@ ul {
 
 .icontag2 {
   color: #505f79;
-  display: block;
+  display: inline;
   align-items: center;
-  margin-left: 25px;
+  margin-left: 12px;
 }
 
 .bigwrapper {
@@ -590,12 +591,14 @@ ul {
 
 .extra-bar {
   align-items: center;
-  width: 375px;
+  width: 330px;
   height: 72px;
   text-align: center;
   gap: 1px;
-  padding-left: 40px;
+  padding-left: 9px;
   padding-top: 10px;
+  left: -7px;
+  position: relative;
 }
 
 .iconsss {
@@ -604,7 +607,7 @@ ul {
   background-position: middle center;
   margin-left: 0;
   position: relative;
-  left: 50px;
+  left: 30px;
 }
 
 .btn:hover {
