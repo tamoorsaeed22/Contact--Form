@@ -48,7 +48,7 @@
             <section class="wrapper">
                 <div class="firstproject">
                     <h3 class="wrappertitle">My Recent Works</h3>
-                    <img src="images/Img Placeholder.png" alt="image" class="placeholder1">
+                    <img src="images/ImgPlaceholder.png" alt="image" class="placeholder1">
                     <h4 class="wrappersubtitle">Multi-Post Stories</h4>
                     <p class="firstp">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
                 </div>
@@ -209,39 +209,50 @@
             </div>
         </section>
     </main>
-    <footer class="footer">
-        <h3 class="footerh3">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h3>
-        <form id="frmContact" class="form-container" action="https://formspree.io/f/xwkjovpk" method="post">
-            <label for="name" hidden>Username input</label>
-            <input class="form-name" type="text" name="name" placeholder="Full name" maxlength="30" required>
-      
-            <label for="email" hidden>Email input</label>
-            <input class="form-email" type="email" name="email" placeholder="Email adress" required>
-      
-            <label for="message" hidden>Comment area</label>
-            <textarea class="form-comment" name="message" maxlength="500" rows="10" placeholder="Enter text here"></textarea>
-      
-            <button class="btn" type="submit">Get in touch</button>
-        </form>
-        <div class="iconsss">
-            <ul class="icon-bar extra-bar">
-                <li class="icontag2">
-                <a href="#"><img src="images/twitter.png" alt="Twitter"></a>
-             </li>
-                <li class="icontag2">
-                <a href="#"><img src="images/Linkedin.png" alt="Linkedin"></a>
-                </li>
-                <li class="icontag2">
-                <a href="#"><img src="images/github.png" alt="Github"></a>
-                </li>
-                <li class="icontag2">
-                <a href="#"><img src="images/Angellist.png" alt="Angellist"></a>
-                </li>
-                <li class="icontag2">
-                <a href="#"><img src="images/Medium.png" alt="Medium"></a>
-                </li>
-            </ul>
-        </div>
-    </footer>
+    <section id="contact" class="contact-me-sec">
+      <div class="contact-header-text">
+          <h3 class="contact-header">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h3>
+      </div>
+      <form id="form" action="https://formspree.io/f/maykjlep" class="contact-form" method="post">
+          <input id="form-name" type="text" maxlength="30" class="contact-name" placeholder="Full name" name="contactname" required>
+          <input id="email" type="email" class="contact-email" placeholder="Email address" name="contacemail" required>
+          <textarea id="form-txt" class="contact-text" name="contacttxt" maxlength="500" placeholder="Enter text here" required></textarea>
+          <small class="errorMsg"></small>
+          <button id="formButton" type="submit" class="contact-btn" onclick="submitForm(event)">Get in touch</button>
+      </form>
+      <div class="contact-social">
+          <hr class="contact-social-top-hr">
+          <div class="contact-social-icon">
+              <a href="#">
+                  <img class="btm-social" src="images/github.png" alt="Bottom-Social-Media-GIT">
+              </a>
+              <a href="/index.html">
+                  <img class="btm-social" src="images/Linkedin.png" alt="Bottom-Social-Media-LinkIn">
+              </a>
+              <a href="/index.html">
+                  <img class="btm-social" src="images/Medium.png" alt="Bottom-Social-Media">  
+              </a>
+              <a href="/index.html">
+                  <img class="btm-social" src="images/twitter.png" alt="Bottom-Social-Media-twitter">
+              </a>
+              <a href="/index.html">
+                  <img class="btm-social" src="images/Angellist.png" alt="Bottom-Social-Media">
+              </a>
+          </div>
+          <hr class="contact-social-bottom-hr">
+      </div>
+  </section>
+  <script>
+      function hamMenuHide() {
+          var hamMenu = document.getElementById('navmenu');
+          hamMenu.classList.add('hidden');
+      }
+  </script>
+  <script type="text/javascript" src="./ham-app.js"></script>
+  <script type="text/javascript" src="./work-cards.js"></script>
+  <script type="text/javascript" src="./popup-app.js"></script>
+  <script type="text/javascript" src="./validation-app.js"></script>
+  <script type="text/javascript" src="./local-stroage.js"></script>
+  <script src="https://kit.fontawesome.com/4ea6e3ab0b.js" crossorigin="anonymous"></script>
 </body>
 </html>
